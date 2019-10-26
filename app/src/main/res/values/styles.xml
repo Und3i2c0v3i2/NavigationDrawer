@@ -9,8 +9,13 @@
 
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
 
-    <style name="CustomHeaderText" parent="AppTheme">
+
+    <style name="CustomHeaderText" parent="AppTheme.NoActionBar">
         <item name="android:textColor">@color/primary_light</item>
         <item name="android:layout_marginStart">16dp</item>
     </style>
